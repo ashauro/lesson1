@@ -6,5 +6,5 @@ def get_vat (payment):
 	except (TypeError, ValueError):
 		print("Неверный тип данных")
 
-user_payment = input ('Введите сумму платежа: ')
+user_payment = input ('Пожалуйста, введите сумму платежа: ')
 print ("НДС от указанного платежа составляет:", get_vat(user_payment))
